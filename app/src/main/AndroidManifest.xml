@@ -12,6 +12,14 @@
         android:theme="@style/Theme.SmartHomeApp"
         tools:targetApi="31">
 
+        <activity android:name=".selectRoutine"
+            android:exported="false"/>
+        <activity android:name=".createRoutine"
+            android:exported="false"/>
+        <activity android:name=".selectEvent"
+            android:exported="false"/>
+        <activity android:name=".selectThing"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

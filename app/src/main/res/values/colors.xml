@@ -14,4 +14,6 @@
     <color name="north_sea">#0080A9</color>
     <color name="yellow">#FFEB3B</color>
     <color name="yellow_variant">#FBC02D</color>
+    <color name="grey">#e4e4e6</color>
+    <color name="darkGrey">#cfcfd1</color>
 </resources>

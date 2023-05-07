@@ -1,9 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".selectEvent">
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/toolbar_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="10dp"
+            android:text="Select an event"
+            android:textAppearance="@style/CustomTextItems"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Time is Time"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="5sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is sunset at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is sunrise at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="5sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is 15 minutes before sunrise at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is 15 minutes after sunrise at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is 15 minutes before sunset at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="380sp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is 15 minutes after sunset at Location"
+        android:textSize="25sp"
+        android:layout_margin="10sp"/>
+
+</LinearLayout>
